@@ -368,6 +368,12 @@ class CAR(Platforms):
   )
 
   # Kia
+  KIA_PV5 = HyundaiPlatformConfig(
+    [
+      HyundaiCarDocs("Kia PV5 2026", "All", car_parts=CarParts.common([CarHarness.hyundai_k])),
+    ],
+    CarSpecs(mass=1836, wheelbase=2.7, steerRatio=13.0),
+  )
   KIA_FORTE = HyundaiPlatformConfig(
     [
       HyundaiCarDocs("Kia Forte 2019-21", min_enable_speed=6 * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_g])),
