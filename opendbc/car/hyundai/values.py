@@ -372,7 +372,8 @@ class CAR(Platforms):
     [
       HyundaiCarDocs("Kia PV5 2026", "All", car_parts=CarParts.common([CarHarness.hyundai_k])),
     ],
-    CarSpecs(mass=1836, wheelbase=2.7, steerRatio=13.0),
+    CarSpecs(mass=1800, wheelbase=2.995, steerRatio=13.0),
+    flags=HyundaiFlags.EV,
   )
   KIA_FORTE = HyundaiPlatformConfig(
     [
