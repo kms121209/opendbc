@@ -1286,17 +1286,5 @@ FW_VERSIONS = {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00SW  MFC  AT KOR LHD 1.00 1.02 99211-SW000 250729',
     ],
-    (Ecu.eps, 0x7d4, None): [
-      b'\xf1\x00SW1 MDPS C 1.00 1.01 56310-SW000 5711',
-    ],
-    (Ecu.abs, 0x7d1, None): [
-      b'\xf1\x00SW1 ESC \x0b 102 %\x07\x18 58910-SW000',
-    ],
-    (Ecu.engine, 0x7e0, None): [
-      b'\xf1\x87366010ESA2\xf1\x89SW10ELAFAS2R00  ',
-    ],
-    (Ecu.transmission, 0x7e1, None): [
-      b'\xf1\x87350000ESD1\xf1\x81SW1EECDS03D0\xf1\x882561SW1EE5CDS3D0\xf1\xb2NULL\xf1\x91350000ESD1\xf1VYi\xe6\xac\xf1\x8b\x00\x00\x00\x00\xf1\x8c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf1\x93350000ESD1\xf1\xa0ECDS\xf1\xa1\x00\x00\x00\x00\xf1\xb0\x02\xf1\xb12561SW1EE5CDS3D0\xf1W\x00\x00\x00\x00',
-    ],
   },
 }
